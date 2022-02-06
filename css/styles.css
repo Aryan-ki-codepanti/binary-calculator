@@ -15,7 +15,12 @@ body{
     color: brown;
 }
 
-#btnClr , #btnEql , #btnDiv {
+#btn0 , #btn1{
+    background: darkgreen;
+    color: white;
+}
+
+#btnSum , #btnSub , #btnMul , #btnDiv {
     background: black;
     color: red;
 }
