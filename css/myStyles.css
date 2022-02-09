@@ -1,0 +1,50 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.wrapper{
+    background-color: #FFE162;
+    width: 300px;
+    /* border: 2px solid black; */
+    padding: 1.7em 1.5em;
+    border-radius: 20px;
+}
+
+#res{
+    padding: 0.5em;
+    min-height: 41.2px;
+    background: #FF6464;
+    font-size: 1.2em;
+    border-radius: 10px;
+    margin-bottom: 1.2em;
+    color: #FFF;
+
+}
+
+#btns{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    gap: 0.5em;
+}
+
+
+.btn{
+    padding: 0.5em;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    color: #91C483;
+    font-size: 1.2em;
+
+    transition: background-color 0.4s ease-in-out;
+}
+
